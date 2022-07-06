@@ -1,0 +1,38 @@
+body{
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+.top-banner{
+    background-image: url(images/donation9.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 90vh;
+}
+.flexible-container{
+    display: flex;
+}
+.top-banner-content{
+    display: block;
+    text-align: center;
+    padding-top: 150px;
+}
+.top-banner-content h1{
+    font-size: 65px;
+    color: whitesmoke;
+    line-height: 40%;
+}
+.top-banner-content p{
+    padding-left: 380px;
+    padding-right: 380px;
+    color:black;
+}
+.donate-button{
+    text-align: center;
+    font-size: 20px;
+    text-decoration: none;
+    background-color:tomato;
+    color: whitesmoke;
+    padding: 12px;
+    border-radius: 5px;
+}
