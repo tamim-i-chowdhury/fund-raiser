@@ -10,10 +10,9 @@ body{
     height: 90vh;
 }
 .flexible-container{
-    display: flex;
+    display: block;
 }
 .top-banner-content{
-    display: block;
     text-align: center;
     padding-top: 150px;
 }
@@ -28,11 +27,11 @@ body{
     color:black;
 }
 .donate-button{
-    text-align: center;
     font-size: 20px;
     text-decoration: none;
     background-color:tomato;
     color: whitesmoke;
     padding: 12px;
     border-radius: 5px;
+    margin-left: 45%;
 }
