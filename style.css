@@ -10,9 +10,10 @@ body{
     height: 90vh;
 }
 .flexible-container{
-    display: block;
+    display: flex;
 }
 .top-banner-content{
+    display: block;
     text-align: center;
     padding-top: 150px;
 }
@@ -29,9 +30,51 @@ body{
 .donate-button{
     font-size: 20px;
     text-decoration: none;
-    background-color:tomato;
+    background-color:rgb(247, 90, 63);
     color: whitesmoke;
     padding: 12px;
     border-radius: 5px;
-    margin-left: 45%;
+    text-align: center;
+}
+.donate-today{
+    text-align: center;
+    padding-top: 120px;
+}
+.donate-today h1{
+    font-size: 45px;
+    font-weight:bold;
+}
+.donate-today p{
+    padding-left: 350px;
+    padding-right: 350px;
+}
+.box-position{
+    margin-left: 325px;
+}
+.money-decoration{
+    background-color: rgb(231, 227, 227);
+    margin: 40px 10px;
+    border-radius: 5px;
+    padding: 30px;
+}
+.money-decoration h2{
+    font-weight: bold;
+    color: rgba(66, 65, 65, 0.869);
+}
+.shaded-area{
+    border: 2px solid rgb(249, 94, 67);
+    background-color:rgb(239, 179, 168);
+}
+.shaded-area h2{
+    color: tomato;
+}
+.donate-today-bottom-part{
+    text-align: center;
+    width: 55%;
+    padding-left: 310px;
+}
+.donate-today-bottom-part p{
+    color:rgb(211, 205, 205);
+    border-bottom: 1px solid rgb(219, 216, 216);
+    margin-bottom: 20px;
 }
