@@ -12,6 +12,9 @@ body{
 .flexible-container{
     display: flex;
 }
+.flexible-container-1{
+    display: block;
+}
 .top-banner-content{
     display: block;
     text-align: center;
@@ -30,7 +33,7 @@ body{
 .donate-button{
     font-size: 20px;
     text-decoration: none;
-    background-color:rgb(247, 90, 63);
+    background-color:rgba(247, 91, 63, 0.882);
     color: whitesmoke;
     padding: 12px;
     border-radius: 5px;
@@ -63,10 +66,10 @@ body{
 }
 .shaded-area{
     border: 2px solid rgb(249, 94, 67);
-    background-color:rgb(239, 179, 168);
+    background-color:rgba(239, 179, 168, 0.84);
 }
 .shaded-area h2{
-    color: tomato;
+    color: rgba(255, 99, 71, 0.852);
 }
 .donate-today-bottom-part{
     text-align: center;
@@ -135,4 +138,28 @@ body{
     border-radius: 5px;
     text-decoration: none;
     font-size: 20px;
+}
+.form{
+    text-align: center;
+    padding: 80px 200px;
+    background-color: rgba(241, 228, 211, 0.873);
+    margin-left: 300px;
+    margin-right: 300px;
+}
+footer{
+    margin-top: 150px;
+    text-align: center;
+    line-height: 150%;
+    background-color: black;
+    height: 25vh;
+}
+#humble{
+    padding-top: 50px;
+    font-size: 30px;
+    font-weight: bolder;
+    font-family:cursive;
+    color:rgb(247, 90, 63);
+}
+#do-it{
+    color: rgba(255, 255, 255, 0.648);
 }
