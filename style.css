@@ -33,7 +33,7 @@ body{
 .donate-button{
     font-size: 20px;
     text-decoration: none;
-    background-color:rgba(247, 91, 63, 0.882);
+    background-color:rgba(238, 62, 31, 0.882);
     color: whitesmoke;
     padding: 12px;
     border-radius: 5px;
@@ -81,6 +81,51 @@ body{
     border-bottom: 1px solid rgb(219, 216, 216);
     margin-bottom: 20px;
 }
+.donate-plan h1{
+    font-size: 45px;
+    font-weight: bolder;
+    margin-top: 150px;
+    text-align: center;
+}
+.donate-plan p{
+    text-align: center;
+}
+.donate-plan p{
+    margin-left: 250px;
+    margin-right: 250px;
+    padding-right: 100px;
+    padding-left: 100px;
+}
+.catagories-position{
+    margin-top: 50px;
+    margin-left: 175px;
+}
+.quarter-width{
+    width: 25%;
+    height: 55vh;
+    text-align: left;
+    padding-left: 20px;
+    border-radius: 5px;
+    margin-right: 25px;
+}
+.quarter-width img{
+    margin-top: 50px;
+    width: 40%;
+}
+.gray-color{
+    background-color: rgba(215, 209, 209, 0.512);
+}
+.lightRed-color{
+    background-color:darksalmon;
+}
+.cream-color{
+    background-color:blanchedalmond;
+}
+.quarter-width p{
+    text-align: left;
+    padding-right: 50px;
+}
+
 .half-width{
     margin-top: 150px;
     width: 50%;
@@ -141,10 +186,27 @@ body{
 }
 .form{
     text-align: center;
-    padding: 80px 200px;
+    padding: 80px 100px;
     background-color: rgba(241, 228, 211, 0.873);
-    margin-left: 300px;
-    margin-right: 300px;
+    width: 50%;
+    margin-left: 250px;
+    margin-right: 200px;
+}
+.email-field{
+    width: 300px;
+    height: 5vh;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+    border: none;
+    background-color: rgb(231, 222, 222);
+}
+.subscribe-button{
+    height: 5vh;
+    width: 150px;
+    border: none;
+    background-color: tomato;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px
 }
 footer{
     margin-top: 150px;
